@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import { AppContext } from '../context/AppContext';
 import Background from '../components/Home/background/Background';
-import Sidebar from '../components/Home/sidebar/SideBar';
+import Sidebar from '../components/Home/sidebar/Sidebar';
 import PainelStart from '../components/Home/painelstart/PainelStart';
 import Planets from '../components/Home/planets/Planets';
 import QuestionArea from '../components/Home/questionarea/QuestionArea';
