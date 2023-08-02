@@ -1,0 +1,12 @@
+.animated-bg {
+  animation: kenburns-top 15s ease-in-out 0s;
+}
+
+@keyframes kenburns-top {
+  0% {
+    background-position: bottom;
+  }
+  100% {
+    background-position: none;
+  }
+}

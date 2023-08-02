@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: aquire;
+  src: url('../src/assets/fonts/AquireLight.otf');
+}
+
+body {
+  cursor: url('./assets/images/cursor/cursor1.png'), auto;
+}
+
+.fancy-pointer {
+  cursor: url('./assets/images/cursor/cursor-pointer-blue.png'), auto;
+}
+
+#velocity-slider::-webkit-slider-thumb,
+#difficulty-slider::-webkit-slider-thumb {
+  background-color: rgba(139, 31, 169, 0.855);
+  border-radius: 25%;
+  transition: all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#velocity-slider::-webkit-slider-thumb,
+#difficulty-slider::-webkit-slider-thumb:hover {
+  width: 23px;
+  height: 23px;
+}
+
+#velocity-slider::-webkit-slider-thumb,
+#difficulty-slider::-moz-range-thumb {
+  background-color: rgba(139, 31, 169, 0.855);
+  border-radius: 25%;
+}
+#difficulty-slider::-ms-thumb {
+  background-color: rgba(139, 31, 169, 0.855);
+  border-radius: 25%;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.typing-square {
+  border: 3px solid white;
+  margin-left: 3px;
+  animation: blink-animation 1s infinite;
+}
+
+@keyframes blink-animation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
