@@ -14,7 +14,7 @@ function Background() {
           gameStarted ? 'bg-left' : ''
         } animated-bg transition-all duration-1000 -z-[9999]`}
         style={{
-          backgroundImage: `url(${svg})`  // "url('../../../assets/images/home/frame4k.svg')"
+          backgroundImage: `url(${svg})`
         }}/>
     </>
   );
